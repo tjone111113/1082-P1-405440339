@@ -1,0 +1,72 @@
+
+#container {
+  width: 90%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 20px auto;
+}
+
+#heading {
+  background-color: aqua;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+}
+
+#heading ul {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#heading ul a {
+  padding: 5px;
+  background-color: deeppink;
+}
+
+#heading ul a:hover {
+  background-color: crimson;
+}
+
+#heading li {
+  list-style-type: none;
+  padding: 0px 10px 0px 20px;
+  font-size: 20px;
+}
+
+#main {
+display: flex;
+  background-color: chartreuse;
+}
+
+#main ul {
+  display: flex;
+  flex-direction: column;
+}
+#main li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#main ul a {
+  padding: 5px;
+  background-color: deeppink;
+}
+
+aside {
+  height: 400px;
+  width: 20%;
+  text-align: center;
+}
+
+#section {
+  background-color: darkcyan;
+  height: 100%;
+  width: 80%;
+  padding: 10px;
+}
+
+#footer {
+  background-color: darkorange;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+}
